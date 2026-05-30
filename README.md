@@ -26,7 +26,7 @@
 - **Add New Schemes**: Create and publish new government schemes
 - **Edit/Delete Schemes**: Update or remove existing schemes
 - **Category Management**: Add or modify scheme categories
-- **User Management**: View and manage user accounts
+- **User Management**: View and manage user accounts(future)
 
 ---
 
@@ -37,8 +37,8 @@
 | **Frontend** | HTML5, CSS3, JavaScript |
 | **Backend** | PHP 7.4+ |
 | **Database** | MySQL 5.7+ |
-| **Server** | XAMPP (Apache + MySQL) |
-| **Local Development** | Windows (XAMPP) |
+| **Server** | XAMPP ( MySQL) |
+
 
 ---
 
@@ -48,51 +48,3 @@
 - PHP 7.4 or higher
 - MySQL 5.7 or higher
 - A modern web browser (Chrome, Firefox, Edge, Safari)
-
----
-
-## 🚀 Installation & Setup
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/santoshshelake4452/yojanasamachar.git
-cd yojanasamachar
-```
-
-### 2. Set Up XAMPP
-
-1. Start **XAMPP Control Panel**
-2. Start **Apache** and **MySQL** modules
-3. Place the project folder in: `C:\xampp\htdocs\yojanasamachar`
-
-### 3. Configure Database
-
-1. Open **phpMyAdmin**: `http://localhost/phpmyadmin`
-2. Create a new database named `yojanasamachar`
-3. Import the SQL file:
-   ```bash
-   # Or via phpMyAdmin > Import > Choose setup.sql
-   ```
-4. Alternatively, run the SQL file directly:
-   ```bash
-   mysql -u root -p yojanasamachar < setup.sql
-   ```
-
-### 4. Configure Database Connection
-
-Edit `config/database.php` (if exists) or update the database credentials in your PHP files:
-
-```php
-<?php
-$host = 'localhost';
-$username = 'root';
-$password = ''; // Default XAMPP password is empty
-$database = 'yojanasamachar';
-?>
-```
-
-### 5. Access the Application
-
-Open your browser and navigate to:
-
